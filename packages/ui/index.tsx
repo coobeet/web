@@ -1,2 +1,3 @@
-import * as React from "react";
-export * from "./Button";
+export const Button = () => {
+  return <button>Boop</button>;
+};
