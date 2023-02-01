@@ -1,4 +1,4 @@
 module.exports = {
   reactStrictMode: true,
-  transpilePackages: ["ui", "@bufbuild/connect-query"],
+  transpilePackages: [`ui`, `@bufbuild/connect-query`],
 };

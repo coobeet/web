@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@coobeet/web",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,21 +13,21 @@
     "@bufbuild/connect-query": "^0.1.0",
     "@bufbuild/connect-web": "^0.6.0",
     "@bufbuild/protobuf": "^1.0.0",
+    "@coobeet/ui": "*",
     "@tanstack/react-query": "^4.24.4",
     "@tanstack/react-query-devtools": "^4.24.4",
     "next": "^13.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ui": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
+    "@coobeet/eslint-config": "*",
+    "@coobeet/tsconfig": "*",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "eslint": "7.32.0",
-    "eslint-config-custom": "*",
-    "tsconfig": "*",
     "typescript": "^4.5.3"
   }
 }

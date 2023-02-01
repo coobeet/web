@@ -1,0 +1,24 @@
+{
+  "name": "@coobeet/workshop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook",
+    "start": "serve storybook-static",
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "dependencies": {
+    "@coobeet/ui": "*"
+  },
+  "devDependencies": {
+    "@coobeet/eslint-config": "*",
+    "@coobeet/tsconfig": "*",
+    "@storybook/react": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-actions": "^6.5.16",
+    "@babel/core": "^7.20.12",
+    "babel-loader": "^8.3.0"
+  }
+}

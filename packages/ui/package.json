@@ -1,19 +1,19 @@
 {
-  "name": "ui",
+  "name": "@coobeet/ui",
   "version": "0.0.0",
-  "main": "./index.tsx",
-  "types": "./index.tsx",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
   "license": "MIT",
   "scripts": {
     "lint": "TIMING=1 eslint \"**/*.ts*\""
   },
   "devDependencies": {
+    "@coobeet/tsconfig": "*",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^18.0.0",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "react": "^18.2.0",
-    "tsconfig": "*",
     "typescript": "^4.5.2"
   }
 }
