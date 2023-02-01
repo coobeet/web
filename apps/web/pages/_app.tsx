@@ -11,7 +11,7 @@ import { useState } from "react";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const transport = createConnectTransport({
-    baseUrl: "https://api.coobeet.me",
+    baseUrl: `https://api.coobeet.me`,
   });
   const [queryClient] = useState(() => new QueryClient());
 

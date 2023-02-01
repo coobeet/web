@@ -3,7 +3,7 @@ import { echo } from "@buf/coobeet_coobeet.bufbuild_connect-query/coobeet/v1/ech
 import { useState } from "react";
 
 export default function Web() {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState(``);
   const mutation = useMutation(echo.useMutation());
 
   return (
@@ -16,7 +16,7 @@ export default function Web() {
         <input value={input} onChange={(e) => setInput(e.target.value)} />
       </p>
       <p>
-        message: {mutation.isLoading ? "loading..." : mutation.data?.message}
+        message: {mutation.isLoading ? `loading...` : mutation.data?.message}
       </p>
     </div>
   );
