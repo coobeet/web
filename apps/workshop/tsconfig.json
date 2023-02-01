@@ -1,0 +1,5 @@
+{
+  "extends": "@coobeet/tsconfig/react-library.json",
+  "include": ["."],
+  "exclude": ["storybook-static", "node_modules"]
+}
