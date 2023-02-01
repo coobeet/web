@@ -11,7 +11,7 @@
     "@coobeet/tsconfig": "*",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^18.0.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.0.0",
     "eslint-config-custom": "*",
     "react": "^18.2.0",
     "typescript": "^4.5.2"
